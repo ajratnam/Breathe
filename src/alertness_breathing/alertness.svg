@@ -1,0 +1,75 @@
+<svg cache-id="47c10277635446ff9289477b3d8741eb" id="eywdGU1YOrj1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 120 270" shape-rendering="geometricPrecision"
+    text-rendering="geometricPrecision">
+    <style>
+        <![CDATA[ #eywdGU1YOrj5_to {
+            animation: eywdGU1YOrj5_to__to 8000ms linear infinite normal forwards
+        }
+
+        @keyframes eywdGU1YOrj5_to__to {
+            0% {
+                transform: translate(170px, 250px)
+            }
+
+            75% {
+                transform: translate(190px, 110px)
+            }
+
+            100% {
+                transform: translate(170px, 250px)
+            }
+        }
+
+        #eywdGU1YOrj5_ts {
+            animation: eywdGU1YOrj5_ts__ts 8000ms linear infinite normal forwards
+        }
+
+        @keyframes eywdGU1YOrj5_ts__ts {
+            0% {
+                transform: scale(1, 1)
+            }
+
+            75% {
+                transform: scale(2, 2)
+            }
+
+            100% {
+                transform: scale(1, 1)
+            }
+        }
+
+        #eywdGU1YOrj6_to {
+            animation: eywdGU1YOrj6_to__to 8000ms linear infinite normal forwards
+        }
+
+        @keyframes eywdGU1YOrj6_to__to {
+            0% {
+                transform: translate(170px, 250px)
+            }
+
+            75% {
+                transform: translate(170px, 90px)
+            }
+
+            100% {
+                transform: translate(170px, 250px)
+            }
+        }
+
+        ]]>
+    </style>
+    <g transform="translate(-88-15)">
+        <rect width="69.333333" height="173.333333" rx="34.67" ry="34.67" transform="matrix(1.5 0 0 1.5 98 20)"
+            fill="#ae1728" stroke-width="0" />
+        <rect width="52" height="200" rx="26" ry="26" transform="translate(124 50)" fill="#f9a082" stroke-width="0" />
+        <g id="eywdGU1YOrj5_to" transform="translate(170,250)">
+            <g id="eywdGU1YOrj5_ts" transform="scale(1,1)">
+                <ellipse rx="10" ry="10" transform="translate(-20,-20)" fill="rgba(210,211,237,0.59)"
+                    stroke-width="0" />
+            </g>
+        </g>
+        <g id="eywdGU1YOrj6_to" transform="translate(170,250)">
+            <ellipse rx="10" ry="10" transform="translate(-20,-20)" fill="#d2dbed" stroke-width="0" />
+        </g>
+    </g>
+</svg>
