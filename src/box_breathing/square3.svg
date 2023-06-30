@@ -1,0 +1,22 @@
+<svg id="eK8cxVZyU9Y1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 1920 1080" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <style><![CDATA[
+#eK8cxVZyU9Y8_to {animation: eK8cxVZyU9Y8_to__to 16000ms linear infinite normal forwards}@keyframes eK8cxVZyU9Y8_to__to { 0% {offset-distance: 0%} 25% {offset-distance: 25%} 50% {offset-distance: 50%} 75% {offset-distance: 75%} 100% {offset-distance: 100%}}
+]]></style>
+    <g transform="translate(60.000031 0)">
+        <rect width="750" height="750" rx="0" ry="0" transform="translate(500 200)" fill="#834d69"
+            stroke-width="0" />
+        <rect width="750" height="750" rx="0" ry="0" transform="translate(500 200)" fill="#834d69"
+            stroke-width="0" />
+        <rect width="750" height="750" rx="0" ry="0" transform="translate(500 200)" fill="#834d69"
+            stroke-width="0" />
+        <rect width="733.333" height="733.333" rx="0" ry="0"
+            transform="matrix(.75 0 0 0.75 600 300)" fill="#d9b2ad" stroke-width="0" />
+        <g transform="translate(775.170044 874.589966)">
+            <g id="eK8cxVZyU9Y8_to"
+                style="offset-path:path('M-275.170075,-674.589966L474.829925,-674.589966L474.829925,75.410034L-275.170075,75.410034L-275.170075,-674.589966');offset-rotate:0deg">
+                <ellipse rx="85" ry="85" transform="translate(0,0)" fill="#fbe5d8" stroke-width="0" />
+            </g>
+        </g>
+    </g>
+</svg>
