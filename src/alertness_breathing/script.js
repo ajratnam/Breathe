@@ -1,33 +1,34 @@
-function startCountdown() {
-    var countDowner = document.getElementById('countdown');
-    setTimeout(()=>{
-        countDowner.innerText = "Calm Down";
-        setTimeout(()=>{
-            var timer = 3;
-            countDowner.innerText = timer;
-            var scheduler = setInterval(()=>{
-                timer--;
-                countDowner.innerText = timer;
-                if (timer == 0) {
-                    countDowner.innerText = 'GO!';
-                    clearInterval(scheduler);
-                    setTimeout(()=>{
-                        document.getElementById("container").style.display = 'block';
-                        changeState();
-                    }, 1000);
-                }
-            }, 1000);
-        }, 2000);
-    }, 2000);
+function sleep(seconds) {
+    return new Promise(resolve => setTimeout(resolve, seconds * 1000));
 }
 
-function changeState(){
+async function startCountdown() {
+    var countDowner = document.getElementById('countdown');
+    await sleep(2);
+
+    countDowner.innerText = "Calm Down";
+    await sleep(2);
+
+    var timer = 3;
+    while (timer > 0) {
+        countDowner.innerText = timer--;
+        await sleep(1);
+    }
+
+    countDowner.innerText = 'GO!';
+    await sleep(1);
+
+    document.getElementById("container").style.display = 'block';
+    changeState();
+}
+
+async function changeState(){
     var state = document.getElementById("inhale-state");
-    setTimeout(()=>{
-        state.innerHTML = "Exhale";
-        setTimeout(()=>{
-            state.innerHTML = "Inhale";
-            changeState();
-        }, 2000);
-    }, 6000);
+    await sleep(6);
+    
+    state.innerHTML = "Exhale";
+    await sleep(2);
+    
+    state.innerHTML = "Inhale";
+    changeState();
 }
