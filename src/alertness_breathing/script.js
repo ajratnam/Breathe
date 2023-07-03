@@ -3,7 +3,7 @@ function sleep(seconds) {
 }
 
 async function startCountdown() {
-    var countDowner = document.getElementById('left');
+    var countDowner = document.getElementById('countdown');
     await sleep(2);
 
     countDowner.innerText = "Calm Down";

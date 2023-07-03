@@ -4,7 +4,6 @@ html,
 body {
 	height: 100%;
 	margin: 0;
-    background-color:#3c343d;
 }
 
 #container {
@@ -43,9 +42,3 @@ body {
 	/* height: 75%; */
 	align-self: center;
 }
-/* Styles for the main SVG element */
-svg {
-  width: 100%;
-  height: auto;
-}
-
