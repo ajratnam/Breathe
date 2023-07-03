@@ -1,19 +1,28 @@
+body{
+	background: #020e36ff;	
+}
+
 .container {
 	display:flex;
 	width: 100%;
 	padding: 4% 2%;
 	box-sizing: border-box;
 	height:100vh;
-	background:#f2eee3;
+	
 }
 
+
+
 .box {
+	color: #020e36ff;
+	border-radius: 10px;
 	flex:1;
 	overflow:hidden;
 	transition:.5s;
 	margin:0 2%;
 	box-shadow: 0 20px 30px rgba(0,0,0,.1);
 	line-height:0;
+	background: #fdb3acff;
 }
 
 .box > img {
@@ -43,15 +52,15 @@
     top: 50px;
 }
 
-.text:hover {
+.box:hover {
     text-align: center;
     opacity: 1;
     color: black;
     transform: translateY(-10px);
-}
+} 
 
 img {
     width: 10%;
     height: 10%;
-    
+
 }
