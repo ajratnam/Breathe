@@ -19,9 +19,10 @@ async function startCountdown() {
     await breathe();
 }
 
-const leftDiv = document.getElementById("left");
 
 function displayText(text, duration) {
+    const leftDiv = document.getElementById("left");
+
 	leftDiv.textContent = text;
 	setTimeout(() => {
 		leftDiv.textContent = "";
