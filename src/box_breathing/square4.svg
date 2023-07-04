@@ -1,0 +1,47 @@
+<svg cache-id="5d10e24afec5458595faa060e2bc5c03" id="eZ3f7zVuYJO1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 930 940" shape-rendering="geometricPrecision"
+    text-rendering="geometricPrecision">
+    <style>
+        <![CDATA[
+        #eZ3f7zVuYJO5_to {
+            animation: eZ3f7zVuYJO5_to__to 16s linear infinite normal forwards
+        }
+
+        @keyframes eZ3f7zVuYJO5_to__to {
+            0% {
+                offset-distance: 0%
+            }
+
+            25% {
+                offset-distance: 25%
+            }
+
+            50% {
+                offset-distance: 50%
+            }
+
+            75% {
+                offset-distance: 75%
+            }
+
+            100% {
+                offset-distance: 100%
+            }
+        }
+        ]]>
+    </style>
+    <g transform="translate(-408.999969-100.000031)">
+        <rect width="750" height="750" rx="0" ry="0" transform="translate(500 200)" fill="#507255"
+            stroke-width="0" />
+        <rect width="733.333" height="733.333" rx="0" ry="0"
+            transform="matrix(.75 0 0 0.75 600 300)" fill="rgba(231,216,50,0.811)"
+            stroke-width="0" />
+        <g id="eZ3f7zVuYJO5_to"
+            style="offset-path:path('M500,200L1250,200L1250,950L500,950L500,200');offset-rotate:0deg">
+            <g transform="translate(0,0)">
+                <ellipse rx="85" ry="85" transform="translate(-6.000031 5.000031)"
+                    fill="rgb(212, 52, 37)" stroke-width="0" />
+            </g>
+        </g>
+    </g>
+</svg>
