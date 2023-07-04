@@ -29,7 +29,28 @@ body {
   font-weight: bold;
   animation: glowing 2s ease-in-out infinite alternate;
   box-shadow: 0 0 10px 0px #de741c;
+  cursor: pointer;
 }
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+a:active{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
 
 @keyframes glowing {
   0% {
