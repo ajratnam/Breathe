@@ -1,0 +1,51 @@
+#container {
+    position: relative;
+    display: none;
+}
+
+#breathing-indicator {
+    display: block;
+    margin: auto;
+    max-height: 100vh;
+}
+
+#text-container {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+}
+
+#inhale-state {
+    color: white;
+    font-size: 5em;
+}
+
+#countdown {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(to bottom, #0a2d36 0%, #0a2d36 50%, #051519 50%, #051519 100%);
+    background-size: 100% 200%;
+    animation: fillAnimation 8s infinite;
+    overflow: hidden;
+}
+  
+@keyframes fillAnimation {
+    0% {
+      background-position: 0% -100%;
+    }
+    50% {
+      background-position: 0% 0%;
+    }
+    100% {
+        background-position: 0% -100%;
+    }
+}
+  
