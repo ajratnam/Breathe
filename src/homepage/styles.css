@@ -88,3 +88,11 @@ img {
 #box_breathing img{
 	transform: translate(-50%, -35%);
 }
+
+#equal_breathing img {
+    transform: translate(-50%, -25%);
+}
+
+#alertness_breathing img {
+    transform: translate(-50%, -25%);
+}
