@@ -1,20 +1,36 @@
 <!-- @format -->
 
-<!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" href="styles.css" />
-	</head>
-	<body>
-		<div class="circle">
-			Let's Breathe...
-		</div>
+	<link rel="stylesheet" href="cs1.css" />
+	<header class="cont">
+		<!-- The video -->
 
-		<script>
-            let circle = document.querySelector(".circle");
-            circle.addEventListener("click", () => {
-                window.location.href =  "src/homepage/hi.html"
-            });
-        </script>
-	</body>
+		<video class="video" autoplay muted loop id="myVideo">
+			<source src="src/html/sun.mp4" type="video/mp4" />
+		</video>
+		<div class="overlay"></div>
+		<h1 class="h1">
+			<br />&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+			Let's Breathe
+		</h1>
+
+		<!-- Meow -->
+		<!-- Optional: some overlay text to describe the video -->
+		<div class="content">
+			<!-- Use a button to pause/play the video with JavaScript -->
+			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<button
+				id="myBtn"
+				onclick="window.location.href='src/homepage/hi.html'"
+				style="margin-left: -600">
+				Get Started
+			</button>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+			<button
+				id="myBtn"
+				onclick="window.location.href='https://www.everydayhealth.com/alternative-health/living-with/ways-practice-breath-focused-meditation/'">
+				Learn More
+			</button>
+		</div>
+	</header>
 </html>
