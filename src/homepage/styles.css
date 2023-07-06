@@ -84,3 +84,7 @@ img {
 	width: 100%;
 	height: auto;
 }
+
+#box-breathing {
+    transform: translate(-50%, -35%);
+}
