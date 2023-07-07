@@ -1,34 +1,46 @@
-<!-- @format -->
-
 <html>
 	<link rel="stylesheet" href="cs1.css" />
+	<link rel="stylesheet" href="styles.css" />
 	<header class="cont">
-		<!-- The video -->
+		<br><br><br><br>
+		<div class="circle" style="position: absolute; right: 45%;">
+			<br> 
+			 Breathe
+		</div>
+		<br><br><br><br><br><br><br>
 
 		<video class="video" autoplay muted loop id="myVideo">
 			<source src="src/html/sun.mp4" type="video/mp4" />
 		</video>
+		<script>
+            let circle = document.querySelector(".circle");
+            circle.addEventListener("click", () => {
+                window.location.href =  "src/homepage/hi.html"
+            });
+        </script>
 		<div class="overlay"></div>
 		<h1 class="h1">
-			<br />&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
-			Let's Breathe
+			<center>
+				In the midst of movement and chaos, keep stillness inside of you.<br>
+				It's time to breathe!!
+			</center>
 		</h1>
+		<br>
 
 		<!-- Meow -->
-		<!-- Optional: some overlay text to describe the video -->
 		<div class="content">
-			<!-- Use a button to pause/play the video with JavaScript -->
-			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 			<button
 				id="myBtn"
+				class="button"
 				onclick="window.location.href='src/homepage/hi.html'"
-				style="margin-left: -600">
+				>
 				Get Started
 			</button>
 			&nbsp;&nbsp;&nbsp;&nbsp;
 			<button
 				id="myBtn"
-				onclick="window.location.href='https://www.everydayhealth.com/alternative-health/living-with/ways-practice-breath-focused-meditation/'">
+				class="button2"
+				onclick="window.location.href='f1.html'">
 				Learn More
 			</button>
 		</div>
