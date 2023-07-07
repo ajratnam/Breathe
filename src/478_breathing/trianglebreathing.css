@@ -7,7 +7,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #ffffff;
+    background-image: url("../homepage/images/calm-water-of-ocean-during-daytime.jpg");
+    background-size: cover;
   }
   
 img{

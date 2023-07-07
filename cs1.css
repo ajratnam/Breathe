@@ -2,16 +2,34 @@
     position: static;
     height: 100vh;
     overflow:hidden;
-    display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .h1 {
     color: #fff;
-    font-size: 5rem;
+    padding-top: 10%;
+    width: 100%;
+    font-size: 3rem;
     
   }
-  
+  .content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button2 {
+    margin-left: 10px;
+  }
+
+  @font-face {
+    font-family: alexena;
+    src: url('src/fonts/Alexana.ttf');
+  }
+
+  .circle {
+    font-family: alexena;
+  }
+
   
   .video {
     position: absolute;
